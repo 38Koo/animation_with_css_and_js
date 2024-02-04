@@ -1,0 +1,54 @@
+button {
+  height: 90px;
+  width: 290px;
+  font-size: 28px;
+  color: white;
+  border: none;
+  background-color: blue;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+.separate {
+  border: solid 1px grey;
+  margin-top: 10px;
+}
+
+.move {
+  margin: 2rem;
+  width: 150px;
+  height: 50px;
+  padding: 10px 15px;
+  background-color: red;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 0.5em;
+  font-size: 20px;
+  transition-timing-function: translate();
+  transition-duration: 3s;
+  display: block;
+}
+
+.move:hover {
+  transform: translate(900px, 0);
+}
+
+#ease {
+  transition-timing-function: ease;
+}
+
+#linear {
+  transition-timing-function: linear;
+}
+#ease-in {
+  transition-timing-function: ease-in;
+}
+#ease-out {
+  transition-timing-function: ease-out;
+}
+#ease-in-out {
+  transition-timing-function: ease-in-out;
+}
