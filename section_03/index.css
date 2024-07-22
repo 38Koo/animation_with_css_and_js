@@ -13,7 +13,9 @@ img:hover {
   /* lesson 01 */
   /* before we use any of the 3D transform
   properties we need to create perspective. */
-  transform: translateZ(800px);
+  /* transform: translateZ(800px); */
+  /* lesson 02 */
+  transform: rotateY(120deg);
 }
 
 body {
