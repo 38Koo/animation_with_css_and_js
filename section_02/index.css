@@ -12,5 +12,12 @@ img:hover {
   /* transform: translate(-500px, 200px); */
 
   /* lesson 02 */
-  transform: scale(2, 0.5);
+  /* transform: scale(2, 0.5); */
+
+  /* lesson 03 */
+  /* transform: rotate(180deg); */
+  /* transform: rotate(-1turn); */
+  /* 200gradients = 180deg 
+  transform: rotate(200grad);
+  */
 }
