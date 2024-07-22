@@ -20,4 +20,7 @@ img:hover {
   /* 200gradients = 180deg 
   transform: rotate(200grad);
   */
+
+  /* lesson 04 */
+  transform: skew(30deg, 10deg);
 }
