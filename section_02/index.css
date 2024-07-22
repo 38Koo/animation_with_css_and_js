@@ -8,5 +8,9 @@ img {
 }
 
 img:hover {
-  transform: translate(-500px, 200px);
+  /* lesson 01 */
+  /* transform: translate(-500px, 200px); */
+
+  /* lesson 02 */
+  transform: scale(2, 0.5);
 }
