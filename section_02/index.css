@@ -5,6 +5,8 @@ img {
   margin: auto;
   margin-top: 200px;
   transition: transform 2s;
+  /* lesson 05 */
+  transform-origin: 10% 80%;
 }
 
 img:hover {
@@ -22,5 +24,8 @@ img:hover {
   */
 
   /* lesson 04 */
-  transform: skew(30deg, 10deg);
+  /* transform: skew(30deg, 10deg); */
+
+  /* lesson 05 */
+  transform: rotate(45deg);
 }
